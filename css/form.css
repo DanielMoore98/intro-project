@@ -1,0 +1,188 @@
+.note-form {
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 0 8px 12px 0 rgba(11, 12, 13, 0.08), 0 16px 24px 0 rgba(11, 12, 13, 0.04), 0 1px 2px 0 rgba(11, 12, 13, 0.08);
+    background: #fff;
+    margin-bottom: 24px;
+}
+
+.note-title-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    height: 60px;
+
+}
+
+.note-title {
+    max-width: 344px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #000;
+}
+
+.note-title::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #919191;
+}
+
+.bottom-content {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.note-content-group {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 108px;
+}
+
+.note-description {
+    height: 84px;
+    border: 1px solid #e8e8e8;
+    padding: 6px 12px;
+    border-radius: 8px;
+    resize: none;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #000;
+}
+
+.note-description::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #919191;
+}
+
+.submit-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 24px;
+}
+
+label,
+legend {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    color: #919191;
+}
+
+
+.fieldset {
+    height: 60px;
+    max-width: 212px;
+}
+
+.radio-list {
+    display: flex;
+    gap: 8px;
+}
+
+.radio {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+input[type="radio"]:checked::after {
+    content: '';
+    display: block;
+    width: 30px;
+}
+
+fieldset {
+    all: unset;
+}
+
+
+.radio-list {
+    display: flex;
+    gap: 14px;
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.radio {
+    appearance: none;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.radio[value="red"] {
+    background-color: #F37D7D;
+}
+
+.radio[value="green"] {
+    background-color: #C2F37D;
+}
+
+.radio[value="blue"] {
+    background-color: #7DE1F3;
+}
+
+.radio[value="yellow"] {
+    background-color: #F3DB7D;
+}
+
+.radio[value="purple"] {
+    background-color: #E77DF3;
+}
+
+.radio:checked {
+    border-color: white;
+    box-shadow: 0 0 0 3px white,
+        /* Внутренняя обводка для создания промежутка */
+        0 0 0 4.5px #007BFF;
+    /* Внешняя обводка */
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    height: 36px;
+    width: 232px;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 24px;
+    background-color: #457cdc;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+.submit-button:hover {
+    transform: translateY(-2.5px);
+}
+
+.submit-button:active {
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.add-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}

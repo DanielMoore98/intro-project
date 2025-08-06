@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/notes.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <!-- Ваш код -->
+        <div class="container">
+            <div class="head-wrapper">
+                <img class="logo-img" src="./images/icons/📝Notes.png" alt="logo">
+                <div class="total-group">
+                    <img class="total-logo-img" src="./images/icons/notes.png" alt="total-logo">
+                    <span class="total-notes">Всего заметок:</span>
+                    <span class="total-notes-number">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form class="note-form" name="notes">
+                <!-- Ваш код -->
+                <div class="note-title-group">
+                    <label for="note-title">Название заметки</label>
+                    <input type="text" id="note-title" class="note-title" name="title"
+                        placeholder="Напишите название новой заметки...">
+                </div>
+                <div class="bottom-content">
+                    <div class="note-content-group">
+                        <label for="note-description">Описание новой заметки</label>
+                        <textarea id="note-description" class="note-description" name="description"
+                            placeholder="Напишите описание новой заметки..." maxlength="300" ></textarea>
+                    </div>
+                    <div class="submit-group">
+                        <fieldset class="fieldset">
+                            <legend class="label">Выберите цвет заметки</legend>
+                            <ul class="radio-list">
+                                <li>
+                                    <input checked class="radio" type="radio" name="color" value="yellow"
+                                        aria-label="yellow" />
+                                </li>
+                                <li>
+                                    <input class="radio" type="radio" name="color" value="red" aria-label="red" />
+                                </li>
+                                <li>
+                                    <input class="radio" type="radio" name="color" value="green" aria-label="green" />
+                                </li>
+                                <li>
+                                    <input class="radio" type="radio" name="color" value="blue" aria-label="blue" />
+                                </li>
+                                <li>
+                                    <input class="radio" type="radio" name="color" value="purple" aria-label="purple" />
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <button type="submit" class="submit-button" name="submit">
+                            <img class="add-plus" src="./images/icons/plus-svgrepo-com 1.png" alt="plus">
+                            <span class="add-text">Добавить заметку</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+
+            <div class="filter-box">
+                <!-- Ваш код -->
+                
+            </div>
+            <ul class="notes-list">
+                <!-- Сюда будут рендерится заметки из JavaScript -->
+                <!-- <li  class="favorite">
+                    <div class="note" colour="yellow">
+                        <h1 class="note-name">Flexbox (CSS)
+                            <div id="1" class="note-name-group">
+                                <input type="checkbox" class="is-favorite">
+                                <img class="delete" src="./images/icons/trash.svg" alt="trash">
+                            </div>
+                        </h1>
+                        <p class="note-text">Lorem.</p>
+                    </div>
+                </li> -->
+            </ul>
+
+            <div class="messages-box">
+                <!-- Сюда будут рендерится информационные сообщения из JavaScript -->
+                
+            </div>
+
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
