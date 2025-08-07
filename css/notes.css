@@ -77,7 +77,7 @@
     appearance: none;
     width: 16px;
     height: 16px;
-    background-image: url(/images/icons/trash.svg);
+    background-image: url(../images/icons/heart-active.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -85,7 +85,7 @@
 }
 
 .is-favorite:checked{
-    background-image: url(/images/icons/heart-active.svg);
+    background-image: url(../images/icons/heart-active.svg);
 }
 
 
