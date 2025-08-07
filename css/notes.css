@@ -85,7 +85,7 @@
 }
 
 .is-favorite:checked{
-    background-image: url(/intro-project/images/icons/heart-active.svg);
+    background-image: url(./images/icons/heart-active.svg);
 }
 
 
