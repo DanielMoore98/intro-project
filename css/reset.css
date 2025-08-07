@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Montserrat;
-	src: url(/intro-project/fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
+	src: url(./intro-project/fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
 	font-style: normal;
 	font-weight: inherit;
 }
