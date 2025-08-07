@@ -77,7 +77,7 @@
     appearance: none;
     width: 16px;
     height: 16px;
-    background-image: url(/intro-project/images/icons/heart-active.svg);
+    background-image: url(./images/icons/heart-inactive.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
